@@ -1,24 +1,26 @@
 body {
-  background-image: url(/source/1676348665_gagaru-club-p-krasivie-uzori-krasivo-16.jpg);
+  background-image: linear-gradient(90deg, rgb(169, 202, 109) 0%, rgba(220, 163, 250, 1) 45%, rgba(82, 202, 244, 1) 100%);
+  ;
   background-size: cover;
 }
 
 @font-face {
-  font-family: 'buckin';
-  src: url(/source/Baskin\ Robbins\ Cyr_1.ttf);
+  font-family: 'missuri';
+  src: url(/source/El_Messiri/ElMessiri-VariableFont_wght.ttf);
 }
 
 .container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  flex-wrap: wrap;
 
 }
 
 .border1 {
   --angle: 0deg;
   width: 25vmin;
-  height: 25vmin;
+  height: 20vmin;
   border: .8rem solid;
   border-image: linear-gradient(var(--angle),
       #a73158,
@@ -43,16 +45,17 @@ body {
 
 .bottom {
   display: flex;
-  font-family: buckin;
-  text-shadow: 1px 1px 2px #a73158;
-  font-size: 60px;
+  font-family: missuri;
+  text-shadow: 2px 2px 5px #fff9fb;
+  font-size: 100px;
   font-weight: bold;
-  color: rgb(158, 202, 146);
-  padding: 60px 20px;
+  color: rgb(68, 34, 78);
+  padding-top: 20%;
   text-align: center;
   align-items: stretch;
   justify-content: center;
-  background-image: url(/source/i80mCFwgb6s.jpg)
+  width: 25vmin;
+  cursor: grab;
 }
 
 .part2 {
@@ -68,29 +71,27 @@ body {
 }
 
 .randomlife {
-  height: 100px;
-  width: 300px;
+  height: 200px;
+  width: 400px;
   align-content: center;
-  margin-top: 50px;
-  border: 1px solid black;
-  font-family: buckin;
-  font-size: 70px;
-  text-shadow: 1px 1px 2px #a73158;
+  margin-top: 100px;
+  font-family: missuri;
+  font-size: 90px;
+  text-shadow: 2px 2px 5px #f1eeef;
   text-align: center;
-  margin-left: -40px;
-  color: rgb(158, 202, 146);
+  color: rgb(121, 20, 124);
+  visibility: hidden;
 }
 
 .randomwork {
-  height: 100px;
-  width: 300px;
+  height: 200px;
+  width: 400px;
   align-content: center;
-  margin-top: 50px;
-  border: 1px solid black;
-  font-family: buckin;
-  font-size: 70px;
-  text-shadow: 1px 1px 2px #a73158;
+  margin-top: 100px;
+  font-family: missuri;
+  font-size: 90px;
+  text-shadow: 2px 2px 5px #f5f1f2;
   text-align: center;
-  margin-left: -40px;
-  color: rgb(158, 202, 146);
+  color: rgb(75, 13, 21);
+  visibility: hidden;
 }
